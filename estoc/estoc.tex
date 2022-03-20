@@ -1,0 +1,67 @@
+% Created 2022-03-20 Sun 01:14
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\author{Lourenço Bogo}
+\date{\today}
+\title{Introdução aos Processos Estocásticos}
+\hypersetup{
+ pdfauthor={Lourenço Bogo},
+ pdftitle={Introdução aos Processos Estocásticos},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 29.0.50 (Org mode 9.5.2)}, 
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+
+\section{Motivação}
+\label{sec:org6c1afc7}
+Considere que há um fenômeno se desenvolvendo aleatoriamente no decorrer do tempo.
+Então, a sequência ordenada \((X_1, X_2, \dots, X_n)\) representa a evolução desse fenômeno, ou sistema, nos instantes \(1, 2, \dots, n\).
+Essas variáveis não são necessariamente iid.
+
+Temos, portanto, o conceito de um processo e não apenas evento. Daí o nome processo aleatório ou processo estocástico.
+
+\begin{itemize}
+\item Quando n cresce, qual é o comportamento da sequência?
+\end{itemize}
+
+Às vezes, o índice pode representar, não o tempo, mas uma localização no espaço \(\rightarrow\) campo aleatório.
+
+Em outras situações pode-se ter um processso duplamente indexado, um índice representando o espaço e o outro, o tempo, ou seja, temos um processo estocástico espacial.
+
+\section{Definição}
+\label{sec:orgdbad375}
+\section{Cadeia de Markov}
+\label{sec:orge80c14c}
+Um processo estocástico, com espaço de estados discreto S eem tempo discreto, é uma cadeia de Markov se possui a propriedade Markoviana, isto é, para todo i0, i1, \ldots{}m in-1, i \(\in\) S,
+
+\(P(X_{n+1} = j | X_0 = i_0, X_1 = i_1 ...) = P(X_{n+1} = j | X_n = i) = p_{ij}(n)\)
+
+Basicamente o passado é irrelevante, o próximo estado depende apenas do atual.
+
+Uma cadeia é dita set homogênea no tempo (ou estacionaŕia) se, para \(\forall n \geq 0\),
+
+\(p_{ij}(n) = P(X_{n+1} = j | X_n = i) = P(X_1 = j | X_0 = i) = p_{ij}(0) = p_{ij}\).
+
+Ou seja, ir de estado \(i\) para \(j\) tem sempre a mesma probabilidade independente do tempo no qual essa transição acontece.
+
+Essas probabilidades de transição podem ser representadas por uma matriz \(P\), chamada matrizde probabilidade de transição, cujos elementos \(p_{ij}\) satisfazem:
+
+\begin{itemize}
+\item \(p_{ij} > 0\) para todo \(i, j \in S\)
+\item sum p\textsubscript{ij} sobre \(j \in S = 1\) para todo \(i \in S\), ou seja, a soma dos elements de cada linha é 1 e isso vale para toda linha.
+\end{itemize}
+\end{document}
