@@ -1,0 +1,38 @@
+#+TITLE: Exercício 2
+#+AUTHOR: Lourenço Henrique Moinheiro Martins Sborz Bogo (11208005)
+#+OPTIONS: toc:nil
+
+* 1
+Aqui irei falar o sentido de cada um dos parágrafos.
+- Mostrar a necessidade de sociedade atual em relação aos professores de matemática e seus métodos de ensino.
+- Explicar o papel que um professor deveria ter na sociedade atual.
+- Mostrar que apesar de computadores serem usados nos espaços escolares, eles não estão sendo usados de maneira que prepare os alunos para o aumento de presença da tecnologia nas nosssa vidas.
+- Explicar o motivo do estudo.
+- Exemplificar algumas das questões que o estudo pretende responder.
+- Esse parágrafo tem propósito de manter o resto do texto coesão.
+
+* 2
+Aqui irei citar os conectivos que encontrei e indicar a noção semântica que eles introduzem.
+
+- "... em sala de aula, *uma vez que* a sociedade exige ...": Causa
+- "*Também* parece ser ...": Adição
+- "... *ao encontro da* ideia de que ...": Concordância
+- "*Entretanto*, *embora* ...": Oposição e concessão
+- "*Não há como negar que* ...": Certeza
+- "*Isso se deve*, em grande parte ...": Causa
+- "*Em consequência* dessas transformações ...": Consequência
+- "... *em especial*, na educação.": Exemplificação
+- "*Frente a* estas constatações ...": Causa
+- "... *por meio do* desenvolvimento ...": Instrumento
+- "... *devido ao* interesse ...": Causa
+- "*Para* atingir o objetivo ...": Finalidade
+- "*Para* responder às questões ...": Finalidade
+- "... *mesmo que* brevemente ...": Concessão
+
+* 3
+Aqui irei falar os erros ortográficos que encontrei e como corrigí-los.
+- "tecnologias de informação e comunicação", faltou o paralelismo. "tecnologias de informação e de comunicação".
+- "com a realidade virtual e o computador", faltou o paralelismo. "com a realidade virtual e com o computador".
+- "de um projeto de pesquisa na perspectiva de Extensão em Interface com a Pesquisa", faltou uma vírgula imediatamente depois disto.
+- "interesse em investigar e analisar", faltou o paralelismo. "interesse em investigar e em analisar".
+- "Para atingir o objetivo proposto questões de pesquisa", faltou uma vírgula. "Para atingir o objetivo proposto, questões de pesquisa"
