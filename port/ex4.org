@@ -1,0 +1,42 @@
+#+TITLE: Exercício 4
+#+AUTHOR: Lourenço Henrique Moinheiro Martins Sborz Bogo
+
+* Tipo do resumo
+O resumo é não estruturado
+
+* Elementos do resumo
+- "Os números primos ... são infinitos.": Introdução
+- "Neste artigo ... dos primos.": Objetivo
+
+* Encontrando erros no resumo
+- Uso da palavra "muitos" sem necessidade em "muitos séculos"
+
+* Esquema das ideias empregadas
+A primeira ideia que eu citar em cada um dos parágrafos é a principal e as outras são as secundárias;
+1. Primeiro parágrafo
+   - Explicar de onde veio a ideia de escrever esse artigo
+   - Explicar o motivo do trabalho anterior não ter sido terminado.
+2. Segundo parágrafo
+   - Explicar o objetivo do trabalho
+   - Falar como esse objetivo foi cumprido
+   - Dar motivos para o leitor continuar lendo o trabalho
+3. Terceiro parágrafo
+   - Falar um pouco sobre um resultado do artigo
+   - Dar crédito para a ideia que gerou esse resultado
+   - Explicar por que essa ideia foi usada para chegar no resultado.
+
+* Conectivos na introdução
+- "*que* foi descontinuada ...": Restrição
+- "*pois* o autor ...": Causa
+- "*que* vinha ...": Explicação
+- "*Por meio de* pesquisa bibliográfica ...": Ferramenta
+- "*que* as demonstrações ...": Não contém ideia semântica
+- "*e* se entreter na leitura.": Adição
+- "*que* é um novo olhar ...": Explicação
+- "*pelo fato de* conseguir ...": Explicação
+
+* Erros gramaticais na introdução
+- Faltou uma vírgula antes e depois de "que vinha sendo desenvolvido", pois é uma oração subordinada adjetiva explicativa.
+- Na minha opinião, ficaria melhor trocar o "que vinha sendo desenvolvido" por "que estava em desenvolvimento".
+- Uso do verbo fazer no gerúndio em "fazendo com que o leitor". Poderiam ter usado um conectivo no lugar para deixar a ideia mais clara.
+- Oração subordinada explicativa não separada por vírgula mais uma vez em "que é um novo olhar". Colocar vírgula antes da oração para corrigir.
