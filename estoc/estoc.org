@@ -7,31 +7,45 @@ Considere que há um fenômeno se desenvolvendo aleatoriamente no decorrer do te
 Então, a sequência ordenada $(X_1, X_2, \dots, X_n)$ representa a evolução desse fenômeno, ou sistema, nos instantes $1, 2, \dots, n$.
 Essas variáveis não são necessariamente iid.
 
-Temos, portanto, o conceito de um processo e não apenas evento. Daí o nome processo aleatório ou processo estocástico.
+Temos, portanto, o conceito de um processo e não apenas de um evento. Daí o nome processo aleatório ou processo estocástico.
 
 - Quando n cresce, qual é o comportamento da sequência?
 
-Às vezes, o índice pode representar, não o tempo, mas uma localização no espaço $\rightarrow$ campo aleatório.
+Às vezes, o índice pode representar, não o tempo, mas uma localização no espaço. Nesse caso, temos um campo aleatório.
 
 Em outras situações pode-se ter um processso duplamente indexado, um índice representando o espaço e o outro, o tempo, ou seja, temos um processo estocástico espacial.
 
 * Definição
 * Cadeia de Markov
-Um processo estocástico, com espaço de estados discreto S eem tempo discreto, é uma cadeia de Markov se possui a propriedade Markoviana, isto é, para todo i0, i1, ...m in-1, i \in S,
+Um processo estocástico, com espaço de estados discreto $S$ em tempo discreto, é uma cadeia de Markov se possui a propriedade Markoviana, isto é, para todo $i_0, i_1, ...i_{n-1}, i, j \in S$,
 
 $P(X_{n+1} = j | X_0 = i_0, X_1 = i_1 ...) = P(X_{n+1} = j | X_n = i) = p_{ij}(n)$
 
-Basicamente o passado é irrelevante, o próximo estado depende apenas do atual.
+,ou seja, o próximo estado depende apenas do atual e não dos anteriores.
 
-Uma cadeia é dita set homogênea no tempo (ou estacionaŕia) se, para $\forall n \geq 0$,
+Uma cadeia é dita ser homogênea no tempo (ou estacionária) se, $\forall n \geq 0$,
 
 $p_{ij}(n) = P(X_{n+1} = j | X_n = i) = P(X_1 = j | X_0 = i) = p_{ij}(0) = p_{ij}$.
 
 Ou seja, ir de estado $i$ para $j$ tem sempre a mesma probabilidade independente do tempo no qual essa transição acontece.
 
-Essas probabilidades de transição podem ser representadas por uma matriz $P$, chamada matrizde probabilidade de transição, cujos elementos $p_{ij}$ satisfazem:
+Essas probabilidades de transição podem ser representadas por uma matriz $P$, chamada matriz de probabilidade de transição, cujos elementos $p_{ij}$ satisfazem:
 
 - $p_{ij} > 0$ para todo $i, j \in S$
-- sum p_{ij} sobre $j \in S = 1$ para todo $i \in S$, ou seja, a soma dos elements de cada linha é 1 e isso vale para toda linha.
+- $\displaystyle\sum_{j \in S} p_{ij} = 1, \forall i \in S$, ou seja, a soma dos elementos de cada linha é 1 e isso vale para toda linha.
+* Distribuição Inicial
+Denote por $\pi_0(j)$, a probabilidade que, no tempo 0 (estado inicial), o processo esteja no estado $j \in S$.
+Então o vetor (linha) $\pi_0$ representa a distribuição inicial da cadeia.
 
+* Caracterização do processo
+A matriz de transição e a distribuição inicial caracterizam completamente a cadeia de Markov.
 
+* Transição em n Passos
+Com a matriz e o estado atual, calcular o próximo é trivial. Agora, para calcular o estado daqui a dois passos, precisamos condicionar no estado daqui a um passo. Isso, porém, pode ficar muito trabalhoso, já que podemos ter vários estados possíveis, o que deixaria nossa árvore de estados gigantesca. Por isso, existe outro método para esse cálculo: podemos usar a matriz ao quadrado nos dá as probabilidades de transição daqui a dois estados.
+
+Para as probabilidades de transição daqui a n estados, precisamos da matriz elevada a n.
+
+* Equações de Chapman-Kolmogorov
+$p^{(n+m)}_{ij} = \displaystyle\sum_{k \in S} p^{(n)}_{ik}p^{(m)}_{kj}$, ou matricialmente $P^{(n+m)} = P^{(n)}P^{(m)}$
+
+* Diagrama de Transição
