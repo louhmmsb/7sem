@@ -1,3 +1,6 @@
+#+TITLE: Anotações de FLC0474
+#+AUTHOR: Lourenço Henrique Moinheiro Martins Sborz Bogo
+
 * Objetivos
 - Treinar leitura de textos para identificar ideias núcleo e ideias secundárias.
 - Prática de elaboração textual das mais diversas tipologias (gêneros).
@@ -15,5 +18,7 @@
 - Média entre as melhores notas dos textos e dos trabalhos produzidos e avaliados (75%).
 
 
-
-* Exercício para dia 22
+* Pontos Importantes
+** Separação
+- Não podemos separar sujeito de verbo
+- Não podemos separar verbo do objeto
