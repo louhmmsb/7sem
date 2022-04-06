@@ -1,0 +1,5 @@
+#+TITLE: Respostas para o exercício da simulação do passeio aleatório simples simétrico
+#+AUTHOR: Lourenço Henrique Moinheiro Martins Sborz Bogo
+#+options: toc:nil
+
+O espaço de estados e o tempo são discretos. As sequências não são independentes, pois o valor que teremos agora depende do valor que tínhamos imediatamente antes e do valor que iremos tirar na próxima moeda. Ou seja $S_n$ depende de $S_{n-1}$ e de $X_{n}$. A sequência é Markoviana, pois cada termo depende apenas do termo imediatamente anterior e do lançamento atual, sem necessidade de saber os lançamentos mais antigos. 
